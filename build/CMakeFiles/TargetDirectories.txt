@@ -1,0 +1,10 @@
+/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles/pacman.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles/edit_cache.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles/rebuild_cache.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/CMakeFiles/edit_cache.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/CMakeFiles/rebuild_cache.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL/CMakeFiles/SDL3-shared.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL/CMakeFiles/SDL3_test.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL/CMakeFiles/SDL_uclibc.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL/CMakeFiles/edit_cache.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL/CMakeFiles/rebuild_cache.dir
