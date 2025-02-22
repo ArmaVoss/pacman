@@ -6742,3 +6742,44 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "vendor/SDL_image/cmake/PrivateSdlFunctions.cmake:325 (check_c_compiler_flag)"
+      - "vendor/SDL_image/CMakeLists.txt:326 (sdl_no_deprecated_errors)"
+    checks:
+      - "Performing Test HAVE_WNO_ERROR_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles/CMakeScratch/TryCompile-8qzl2c"
+      binary: "/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles/CMakeScratch/TryCompile-8qzl2c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.1"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_WNO_ERROR_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles/CMakeScratch/TryCompile-8qzl2c'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_512fa/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_512fa.dir/build.make CMakeFiles/cmTC_512fa.dir/build
+        Building C object CMakeFiles/cmTC_512fa.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_WNO_ERROR_DEPRECATED_DECLARATIONS  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fPIE   -Wno-error=deprecated-declarations -MD -MT CMakeFiles/cmTC_512fa.dir/src.c.o -MF CMakeFiles/cmTC_512fa.dir/src.c.o.d -o CMakeFiles/cmTC_512fa.dir/src.c.o -c /Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles/CMakeScratch/TryCompile-8qzl2c/src.c
+        Linking C executable cmTC_512fa
+        /opt/homebrew/Cellar/cmake/3.29.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_512fa.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_512fa.dir/src.c.o -o cmTC_512fa
+        
+      exitCode: 0
+...

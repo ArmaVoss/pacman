@@ -168,6 +168,67 @@ SDL_uclibc/fast:
 	$(MAKE) $(MAKESILENT) -f vendor/SDL/CMakeFiles/SDL_uclibc.dir/build.make vendor/SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
+#=============================================================================
+# Target rules for targets named SDL3_image-shared
+
+# Build rule for target.
+SDL3_image-shared: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3_image-shared
+.PHONY : SDL3_image-shared
+
+# fast build rule for target.
+SDL3_image-shared/fast:
+	$(MAKE) $(MAKESILENT) -f vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/build.make vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/build
+.PHONY : SDL3_image-shared/fast
+
+classes/Map.o: classes/Map.cpp.o
+.PHONY : classes/Map.o
+
+# target to build an object file
+classes/Map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Map.cpp.o
+.PHONY : classes/Map.cpp.o
+
+classes/Map.i: classes/Map.cpp.i
+.PHONY : classes/Map.i
+
+# target to preprocess a source file
+classes/Map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Map.cpp.i
+.PHONY : classes/Map.cpp.i
+
+classes/Map.s: classes/Map.cpp.s
+.PHONY : classes/Map.s
+
+# target to generate assembly for a file
+classes/Map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Map.cpp.s
+.PHONY : classes/Map.cpp.s
+
+classes/Renderer.o: classes/Renderer.cpp.o
+.PHONY : classes/Renderer.o
+
+# target to build an object file
+classes/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Renderer.cpp.o
+.PHONY : classes/Renderer.cpp.o
+
+classes/Renderer.i: classes/Renderer.cpp.i
+.PHONY : classes/Renderer.i
+
+# target to preprocess a source file
+classes/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Renderer.cpp.i
+.PHONY : classes/Renderer.cpp.i
+
+classes/Renderer.s: classes/Renderer.cpp.s
+.PHONY : classes/Renderer.s
+
+# target to generate assembly for a file
+classes/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Renderer.cpp.s
+.PHONY : classes/Renderer.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -201,9 +262,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SDL3-shared"
+	@echo "... SDL3_image-shared"
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... pacman"
+	@echo "... classes/Map.o"
+	@echo "... classes/Map.i"
+	@echo "... classes/Map.s"
+	@echo "... classes/Renderer.o"
+	@echo "... classes/Renderer.i"
+	@echo "... classes/Renderer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

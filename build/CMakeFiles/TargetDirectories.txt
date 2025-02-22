@@ -8,3 +8,6 @@
 /Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL/CMakeFiles/SDL_uclibc.dir
 /Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL/CMakeFiles/edit_cache.dir
 /Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL/CMakeFiles/rebuild_cache.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL_image/CMakeFiles/edit_cache.dir
+/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL_image/CMakeFiles/rebuild_cache.dir

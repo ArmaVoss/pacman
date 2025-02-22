@@ -42,3 +42,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/armanvossoughi/Developer/pacman_cpp/build/vendor/SDL_image/cmake_install.cmake")
+endif()
+

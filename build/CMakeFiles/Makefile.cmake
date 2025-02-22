@@ -34,6 +34,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/cmake/sdltargets.cmake"
   "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/build_config/SDL_build_config.h.cmake"
   "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/build_config/SDL_revision.h.cmake"
+  "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/CMakeLists.txt"
+  "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/cmake/Findwebp.cmake"
+  "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/cmake/GetGitRevisionDescription.cmake"
+  "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/cmake/PrivateSdlFunctions.cmake"
+  "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/cmake/sdlcpu.cmake"
+  "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/cmake/sdlmanpages.cmake"
+  "/Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/cmake/sdlplatform.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -111,6 +118,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "vendor/SDL/SDL3ConfigVersion.cmake"
   "vendor/SDL/include-config-/build_config/SDL_build_config.h"
   "vendor/SDL/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "vendor/SDL_image/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -119,4 +127,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "vendor/SDL/CMakeFiles/SDL3-shared.dir/DependInfo.cmake"
   "vendor/SDL/CMakeFiles/SDL3_test.dir/DependInfo.cmake"
   "vendor/SDL/CMakeFiles/SDL_uclibc.dir/DependInfo.cmake"
+  "vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/DependInfo.cmake"
   )

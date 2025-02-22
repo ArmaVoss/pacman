@@ -83,19 +83,52 @@ CMakeFiles/pacman.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/armanvossoughi/Developer/pacman_cpp/main.cpp -o CMakeFiles/pacman.dir/main.cpp.s
 
+CMakeFiles/pacman.dir/classes/Renderer.cpp.o: CMakeFiles/pacman.dir/flags.make
+CMakeFiles/pacman.dir/classes/Renderer.cpp.o: /Users/armanvossoughi/Developer/pacman_cpp/classes/Renderer.cpp
+CMakeFiles/pacman.dir/classes/Renderer.cpp.o: CMakeFiles/pacman.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pacman.dir/classes/Renderer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pacman.dir/classes/Renderer.cpp.o -MF CMakeFiles/pacman.dir/classes/Renderer.cpp.o.d -o CMakeFiles/pacman.dir/classes/Renderer.cpp.o -c /Users/armanvossoughi/Developer/pacman_cpp/classes/Renderer.cpp
+
+CMakeFiles/pacman.dir/classes/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pacman.dir/classes/Renderer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/armanvossoughi/Developer/pacman_cpp/classes/Renderer.cpp > CMakeFiles/pacman.dir/classes/Renderer.cpp.i
+
+CMakeFiles/pacman.dir/classes/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/classes/Renderer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/armanvossoughi/Developer/pacman_cpp/classes/Renderer.cpp -o CMakeFiles/pacman.dir/classes/Renderer.cpp.s
+
+CMakeFiles/pacman.dir/classes/Map.cpp.o: CMakeFiles/pacman.dir/flags.make
+CMakeFiles/pacman.dir/classes/Map.cpp.o: /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.cpp
+CMakeFiles/pacman.dir/classes/Map.cpp.o: CMakeFiles/pacman.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pacman.dir/classes/Map.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pacman.dir/classes/Map.cpp.o -MF CMakeFiles/pacman.dir/classes/Map.cpp.o.d -o CMakeFiles/pacman.dir/classes/Map.cpp.o -c /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.cpp
+
+CMakeFiles/pacman.dir/classes/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pacman.dir/classes/Map.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.cpp > CMakeFiles/pacman.dir/classes/Map.cpp.i
+
+CMakeFiles/pacman.dir/classes/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/classes/Map.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.cpp -o CMakeFiles/pacman.dir/classes/Map.cpp.s
+
 # Object files for target pacman
 pacman_OBJECTS = \
-"CMakeFiles/pacman.dir/main.cpp.o"
+"CMakeFiles/pacman.dir/main.cpp.o" \
+"CMakeFiles/pacman.dir/classes/Renderer.cpp.o" \
+"CMakeFiles/pacman.dir/classes/Map.cpp.o"
 
 # External object files for target pacman
 pacman_EXTERNAL_OBJECTS =
 
 pacman: CMakeFiles/pacman.dir/main.cpp.o
+pacman: CMakeFiles/pacman.dir/classes/Renderer.cpp.o
+pacman: CMakeFiles/pacman.dir/classes/Map.cpp.o
 pacman: CMakeFiles/pacman.dir/build.make
+pacman: vendor/SDL_image/libSDL3_image.0.2.1.dylib
 pacman: vendor/SDL/libSDL3.0.dylib
 pacman: /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/src/dynapi/SDL_dynapi.sym
 pacman: CMakeFiles/pacman.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pacman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable pacman"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pacman.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
