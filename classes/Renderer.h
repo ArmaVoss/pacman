@@ -6,5 +6,9 @@
 namespace Renderer{
     void DrawPlayer(SDL_Renderer *renderer, Player &player);
     void DrawMap(SDL_Renderer *renderer, Map &map);
+
+    void freeMapSurface(Map& map);
+
+    void freePlayerSurface(Player& player);
 }
 #endif
