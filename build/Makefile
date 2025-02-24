@@ -229,6 +229,30 @@ classes/Renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Renderer.cpp.s
 .PHONY : classes/Renderer.cpp.s
 
+classes/Sprite.o: classes/Sprite.cpp.o
+.PHONY : classes/Sprite.o
+
+# target to build an object file
+classes/Sprite.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Sprite.cpp.o
+.PHONY : classes/Sprite.cpp.o
+
+classes/Sprite.i: classes/Sprite.cpp.i
+.PHONY : classes/Sprite.i
+
+# target to preprocess a source file
+classes/Sprite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Sprite.cpp.i
+.PHONY : classes/Sprite.cpp.i
+
+classes/Sprite.s: classes/Sprite.cpp.s
+.PHONY : classes/Sprite.s
+
+# target to generate assembly for a file
+classes/Sprite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Sprite.cpp.s
+.PHONY : classes/Sprite.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -272,6 +296,9 @@ help:
 	@echo "... classes/Renderer.o"
 	@echo "... classes/Renderer.i"
 	@echo "... classes/Renderer.s"
+	@echo "... classes/Sprite.o"
+	@echo "... classes/Sprite.i"
+	@echo "... classes/Sprite.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

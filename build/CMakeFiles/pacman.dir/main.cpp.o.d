@@ -728,4 +728,5 @@ CMakeFiles/pacman.dir/main.cpp.o: \
   /Users/armanvossoughi/Developer/pacman_cpp/classes/Renderer.h \
   /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/include/SDL3_image/SDL_image.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Player.h
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/Player.h \
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/Sprite.h

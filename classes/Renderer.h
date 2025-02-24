@@ -3,6 +3,7 @@
 #include <SDL3/SDL.h>
 #include "Map.h"
 #include "Player.h"
+#include "Sprite.h"
 namespace Renderer{
     void DrawPlayer(SDL_Renderer *renderer, Player &player);
     void DrawMap(SDL_Renderer *renderer, Map &map);
