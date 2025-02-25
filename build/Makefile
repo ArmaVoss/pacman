@@ -205,6 +205,30 @@ classes/Map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Map.cpp.s
 .PHONY : classes/Map.cpp.s
 
+classes/Player.o: classes/Player.cpp.o
+.PHONY : classes/Player.o
+
+# target to build an object file
+classes/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Player.cpp.o
+.PHONY : classes/Player.cpp.o
+
+classes/Player.i: classes/Player.cpp.i
+.PHONY : classes/Player.i
+
+# target to preprocess a source file
+classes/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Player.cpp.i
+.PHONY : classes/Player.cpp.i
+
+classes/Player.s: classes/Player.cpp.s
+.PHONY : classes/Player.s
+
+# target to generate assembly for a file
+classes/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Player.cpp.s
+.PHONY : classes/Player.cpp.s
+
 classes/Renderer.o: classes/Renderer.cpp.o
 .PHONY : classes/Renderer.o
 
@@ -293,6 +317,9 @@ help:
 	@echo "... classes/Map.o"
 	@echo "... classes/Map.i"
 	@echo "... classes/Map.s"
+	@echo "... classes/Player.o"
+	@echo "... classes/Player.i"
+	@echo "... classes/Player.s"
 	@echo "... classes/Renderer.o"
 	@echo "... classes/Renderer.i"
 	@echo "... classes/Renderer.s"

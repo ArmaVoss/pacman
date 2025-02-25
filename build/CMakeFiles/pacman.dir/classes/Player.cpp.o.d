@@ -1,6 +1,7 @@
-CMakeFiles/pacman.dir/classes/Renderer.cpp.o: \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Renderer.cpp \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Renderer.h \
+CMakeFiles/pacman.dir/classes/Player.cpp.o: \
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/Player.cpp \
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/Player.h \
+  /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/include/SDL3_image/SDL_image.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_stdinc.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_platform_defines.h \
@@ -153,10 +154,6 @@ CMakeFiles/pacman.dir/classes/Renderer.cpp.o: \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_tray.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_version.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_oldnames.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/include/SDL3_image/SDL_image.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/DataTypes.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Player.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -686,4 +683,5 @@ CMakeFiles/pacman.dir/classes/Renderer.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/move_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/move_sentinel.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Sprite.h
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/DataTypes.h \
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.h

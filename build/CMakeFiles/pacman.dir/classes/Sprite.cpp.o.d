@@ -153,4 +153,5 @@ CMakeFiles/pacman.dir/classes/Sprite.cpp.o: \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_tray.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_version.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_oldnames.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/include/SDL3_image/SDL_image.h
+  /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/include/SDL3_image/SDL_image.h \
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/DataTypes.h

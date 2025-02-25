@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/armanvossoughi/Developer/pacman_cpp/classes/Map.cpp" "CMakeFiles/pacman.dir/classes/Map.cpp.o" "gcc" "CMakeFiles/pacman.dir/classes/Map.cpp.o.d"
+  "/Users/armanvossoughi/Developer/pacman_cpp/classes/Player.cpp" "CMakeFiles/pacman.dir/classes/Player.cpp.o" "gcc" "CMakeFiles/pacman.dir/classes/Player.cpp.o.d"
   "/Users/armanvossoughi/Developer/pacman_cpp/classes/Renderer.cpp" "CMakeFiles/pacman.dir/classes/Renderer.cpp.o" "gcc" "CMakeFiles/pacman.dir/classes/Renderer.cpp.o.d"
   "/Users/armanvossoughi/Developer/pacman_cpp/classes/Sprite.cpp" "CMakeFiles/pacman.dir/classes/Sprite.cpp.o" "gcc" "CMakeFiles/pacman.dir/classes/Sprite.cpp.o.d"
   "/Users/armanvossoughi/Developer/pacman_cpp/main.cpp" "CMakeFiles/pacman.dir/main.cpp.o" "gcc" "CMakeFiles/pacman.dir/main.cpp.o.d"
