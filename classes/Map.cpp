@@ -49,12 +49,12 @@ SDL_Surface* Map::getSurface(){
     return this->surface;
 }
 
-bool Map::isInBounds(int i, int j){
-    if (i >= 0 && i < xExtent-1 && j>=0 && j < yExtent-1){
-        return true;
-    }
-    return false;
+bool Map::isInBounds(int i, int j) {
+    if (i < 0 || i >= xExtent) return false; 
+    if (j < 0 || j >= yExtent) return false;  
+    return true;
 }
+
 
 SDL_Texture* Map::getTexture(){
     return text;
@@ -72,6 +72,10 @@ void Map::rotateLeft(tile original[28][31], tile rotated[31][28]) {
     }
 }
 
+Position Map::gridToPixel(Player &player){
+    Position toConvert = player.getPosition();
+    return Position{toConvert.x * 16, toConvert.y * 16};
+}
 
 Map::Map(){
     surface = IMG_Load("../sprites/map/map.png"); 

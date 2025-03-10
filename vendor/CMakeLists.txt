@@ -3,7 +3,8 @@ add_subdirectory(SDL_image)
 
 add_library(vendor INTERFACE)
 
-# Ensure SDL3 and SDL3_image include paths are added
+add_library(classes INTERFACE)
+
 target_include_directories(vendor INTERFACE
     ${CMAKE_SOURCE_DIR}/vendor/SDL/include
     ${CMAKE_SOURCE_DIR}/vendor/SDL_image/include

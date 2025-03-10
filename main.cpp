@@ -3,7 +3,8 @@
 #include "classes/Renderer.h"
 #include "classes/Map.h"
 #include "classes/Player.h"
-
+#include "classes/Sprite.h"
+#include "classes/DataTypes.h"
 const double DELTA_TIME = 1.0 / 30.0;  
 const double ANIMATION_SPEED = 0.1;   
 
@@ -33,6 +34,24 @@ int main(int argc, char *argv[]) {
     Renderer::freePlayerSurface(player);
     Renderer::freeMapSurface(gameMap);
 
+    Sprite sprites[31][28];
+    for(int y = 0; y < gameMap.getYExtent(); y++){
+        for (int x = 0; x < gameMap.getXExtent(); x++){
+            tile t = gameMap.getMapTile(y, x);
+            switch(t){
+                case o:
+                    sprites[y][x].setPowerUp(false);
+                    sprites[y][x].setSpriteTexture(SDL_CreateTextureFromSurface(renderer, IMG_Load("../sprites/map/pill.png")));
+                    break;
+                case O:
+                    sprites[y][x].setPowerUp(true);
+                    sprites[y][x].setSpriteTexture(SDL_CreateTextureFromSurface(renderer, IMG_Load("../sprites/map/big-0.png")));
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
     bool firstMove = false;
 
     Uint64 t_last_update = SDL_GetPerformanceCounter();
@@ -75,7 +94,7 @@ int main(int argc, char *argv[]) {
 
         // Rendering
         SDL_RenderClear(renderer);
-        Renderer::DrawMap(renderer, gameMap);
+        Renderer::DrawMap(renderer, gameMap, sprites);
         Renderer::DrawPlayer(renderer, player);
         SDL_RenderPresent(renderer);
     }

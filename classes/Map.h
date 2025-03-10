@@ -2,9 +2,8 @@
 #define MAP_H
 #include <SDL3/SDL.h>
 #include <SDL3_image/SDL_image.h>
-
-typedef enum {W, G, P, n, o, e, O, E, F} tile;
-
+#include "DataTypes.h"
+#include "Player.h"
 
 class Map{
     private:
@@ -25,6 +24,7 @@ class Map{
     void setTexture(SDL_Texture* texture);
     bool isInBounds(int i, int j);
     tile getMapTile(int i, int j) const;
+    Position gridToPixel(Player& player);
     Map();
 };
 

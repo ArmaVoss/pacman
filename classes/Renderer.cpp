@@ -22,16 +22,28 @@ namespace Renderer
         SDL_RenderTextureRotated(renderer, player.getPlayerTexture(), NULL, &destRect, angle, NULL, SDL_FLIP_NONE);
     }
 
-    void DrawMap(SDL_Renderer *renderer, Map &map){
+    const int MAP_OFFSET_X = 76;
+    const int MAP_OFFSET_Y = 53;
+    void DrawMap(SDL_Renderer *renderer, Map &map, Sprite (&sprites)[31][28]){
         SDL_FRect destRect = {76, 52, 448, 496}; 
-        SDL_RenderTexture(renderer, map.getTexture(), NULL, &destRect);
+        SDL_RenderTexture(renderer, map.getTexture(), NULL, &destRect); 
+        for(int y = 0; y < 31; y++){
+            for(int x = 0; x < 28; x++){
+                DrawSprite(renderer, sprites[y][x], MapPosition{x, y});
+            }
+        }
     }
 
 
-    void DrawSprite(SDL_Renderer *renderer, Sprite& sprite){
+    void DrawSprite(SDL_Renderer *renderer, Sprite& sprite, MapPosition pos){
         //draw sprite while it hasn't been collected
         if (!sprite.getIsCollected()){
-            SDL_FRect destRect; //todo
+            SDL_FRect destRect = {
+                static_cast<float>(MAP_OFFSET_X + (pos.x * 16)),
+                static_cast<float>(MAP_OFFSET_Y + (pos.y * 16)),
+                16, 
+                16  
+            };
             SDL_RenderTexture(renderer, sprite.getTexture(), NULL, &destRect);
         }
     }
