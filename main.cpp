@@ -5,6 +5,8 @@
 #include "classes/Player.h"
 #include "classes/Sprite.h"
 #include "classes/DataTypes.h"
+#include "classes/Game.h"
+
 const double DELTA_TIME = 1.0 / 30.0;  
 const double ANIMATION_SPEED = 0.1;   
 
@@ -57,7 +59,8 @@ int main(int argc, char *argv[]) {
     Uint64 t_last_update = SDL_GetPerformanceCounter();
     double accumulator = 0.0;
     double animationTimer = 0.0;
-
+    initializeUIScore();
+    Game game(renderer);
     while (running) {
         // Calculate delta time
         Uint64 t_now = SDL_GetPerformanceCounter();
@@ -81,7 +84,19 @@ int main(int argc, char *argv[]) {
         }
 
         while (accumulator >= DELTA_TIME) {
+            //updating game logic
             player.updatePosition(DELTA_TIME, gameMap);
+            const MapPosition& pos = player.getMapPosition();
+            tile sprite = gameMap.getMapTile(pos.y, pos.x);
+            if (sprite == o && !sprites[pos.y][pos.x].getIsCollected()){
+                sprites[pos.y][pos.x].setCollected();
+                game.updateScore(10);
+            }
+
+            else if (sprite == O && !sprites[pos.y][pos.x].getIsCollected()){
+                sprites[pos.y][pos.x].setCollected();
+                game.updateScore(50);
+            }
             accumulator -= DELTA_TIME;
         }
 
@@ -96,6 +111,7 @@ int main(int argc, char *argv[]) {
         SDL_RenderClear(renderer);
         Renderer::DrawMap(renderer, gameMap, sprites);
         Renderer::DrawPlayer(renderer, player);
+        Renderer::DrawScore(renderer, game);
         SDL_RenderPresent(renderer);
     }
 

@@ -692,6 +692,9 @@ SDL_WERROR:BOOL=OFF
 //Use X11 video driver
 SDL_X11:BOOL=OFF
 
+//The directory containing a CMake configuration file for Threads.
+Threads_DIR:PATH=Threads_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for libavif.
 libavif_DIR:PATH=libavif_DIR-NOTFOUND
 
@@ -717,7 +720,7 @@ pacman_SOURCE_DIR:STATIC=/Users/armanvossoughi/Developer/pacman_cpp
 webp_COMPILE_OPTIONS:STRING=
 
 //The directory containing a CMake configuration file for webp.
-webp_DIR:PATH=webp_DIR-NOTFOUND
+webp_DIR:PATH=/Users/armanvossoughi/anaconda3/share/WebP/cmake
 
 //Path to a file.
 webp_INCLUDE_PATH:PATH=webp_INCLUDE_PATH-NOTFOUND
@@ -823,6 +826,8 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/Users/armanvossoughi/Developer/pacman_cpp
@@ -948,6 +953,8 @@ COMPILER_SUPPORTS_GCC_ATOMICS:INTERNAL=1
 COMPILER_SUPPORTS_WNO_ERROR_DEPRECATED_DECLARATIONS:INTERNAL=1
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/opt/homebrew/bin/pkg-config][v0.29.2()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Have include alloca.h

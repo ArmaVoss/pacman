@@ -10,7 +10,7 @@ namespace Renderer
             28, 
             28
         };
-        double angle = 0.0;
+        double angle{0.0};
         switch (player.getDirection()) {
             case EAST:  angle = 180.0; break;  
             case WEST:  angle = 0.0;   break;  
@@ -22,8 +22,8 @@ namespace Renderer
         SDL_RenderTextureRotated(renderer, player.getPlayerTexture(), NULL, &destRect, angle, NULL, SDL_FLIP_NONE);
     }
 
-    const int MAP_OFFSET_X = 76;
-    const int MAP_OFFSET_Y = 53;
+    const int MAP_OFFSET_X{76};
+    const int MAP_OFFSET_Y{53};
     void DrawMap(SDL_Renderer *renderer, Map &map, Sprite (&sprites)[31][28]){
         SDL_FRect destRect = {76, 52, 448, 496}; 
         SDL_RenderTexture(renderer, map.getTexture(), NULL, &destRect); 
@@ -47,6 +47,41 @@ namespace Renderer
             SDL_RenderTexture(renderer, sprite.getTexture(), NULL, &destRect);
         }
     }
+
+    void DrawScore(SDL_Renderer *renderer, Game& state){
+        std::string numStr = std::to_string(state.getScore()); 
+        SDL_FRect destRect = {
+            static_cast<float>(MAP_OFFSET_X + 20), 
+            static_cast<float>(MAP_OFFSET_Y - 20),
+            16, 
+            16  
+        };
+        
+
+        for (char c : numStr) {
+            int digit = c - '0'; 
+            SDL_RenderTexture(renderer, state.getTexture(digit), NULL, &destRect);
+            destRect.x += 16.0f;
+        }
+
+        destRect.h = 16;
+        destRect.w = 160;
+        destRect.x = MAP_OFFSET_X + 148;
+        destRect.y = MAP_OFFSET_Y - 40;
+
+        SDL_RenderTexture(renderer, state.getTexture(10), NULL, &destRect);
+
+        destRect.w = 16;
+        destRect.x = MAP_OFFSET_X + 214;
+        destRect.y = MAP_OFFSET_Y - 20;
+
+        for (char c : numStr) {
+            int digit = c - '0'; 
+            SDL_RenderTexture(renderer, state.getTexture(digit), NULL, &destRect);
+            destRect.x += 16.0f;
+        }
+    }
+
 
     void freeMapSurface(Map& map){
         SDL_DestroySurface(map.getSurface());

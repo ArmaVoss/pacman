@@ -139,13 +139,43 @@ CMakeFiles/pacman.dir/classes/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/classes/Player.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/armanvossoughi/Developer/pacman_cpp/classes/Player.cpp -o CMakeFiles/pacman.dir/classes/Player.cpp.s
 
+CMakeFiles/pacman.dir/classes/Game.cpp.o: CMakeFiles/pacman.dir/flags.make
+CMakeFiles/pacman.dir/classes/Game.cpp.o: /Users/armanvossoughi/Developer/pacman_cpp/classes/Game.cpp
+CMakeFiles/pacman.dir/classes/Game.cpp.o: CMakeFiles/pacman.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pacman.dir/classes/Game.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pacman.dir/classes/Game.cpp.o -MF CMakeFiles/pacman.dir/classes/Game.cpp.o.d -o CMakeFiles/pacman.dir/classes/Game.cpp.o -c /Users/armanvossoughi/Developer/pacman_cpp/classes/Game.cpp
+
+CMakeFiles/pacman.dir/classes/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pacman.dir/classes/Game.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/armanvossoughi/Developer/pacman_cpp/classes/Game.cpp > CMakeFiles/pacman.dir/classes/Game.cpp.i
+
+CMakeFiles/pacman.dir/classes/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/classes/Game.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/armanvossoughi/Developer/pacman_cpp/classes/Game.cpp -o CMakeFiles/pacman.dir/classes/Game.cpp.s
+
+CMakeFiles/pacman.dir/classes/DataTypes.cpp.o: CMakeFiles/pacman.dir/flags.make
+CMakeFiles/pacman.dir/classes/DataTypes.cpp.o: /Users/armanvossoughi/Developer/pacman_cpp/classes/DataTypes.cpp
+CMakeFiles/pacman.dir/classes/DataTypes.cpp.o: CMakeFiles/pacman.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pacman.dir/classes/DataTypes.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pacman.dir/classes/DataTypes.cpp.o -MF CMakeFiles/pacman.dir/classes/DataTypes.cpp.o.d -o CMakeFiles/pacman.dir/classes/DataTypes.cpp.o -c /Users/armanvossoughi/Developer/pacman_cpp/classes/DataTypes.cpp
+
+CMakeFiles/pacman.dir/classes/DataTypes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pacman.dir/classes/DataTypes.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/armanvossoughi/Developer/pacman_cpp/classes/DataTypes.cpp > CMakeFiles/pacman.dir/classes/DataTypes.cpp.i
+
+CMakeFiles/pacman.dir/classes/DataTypes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/classes/DataTypes.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/armanvossoughi/Developer/pacman_cpp/classes/DataTypes.cpp -o CMakeFiles/pacman.dir/classes/DataTypes.cpp.s
+
 # Object files for target pacman
 pacman_OBJECTS = \
 "CMakeFiles/pacman.dir/main.cpp.o" \
 "CMakeFiles/pacman.dir/classes/Renderer.cpp.o" \
 "CMakeFiles/pacman.dir/classes/Map.cpp.o" \
 "CMakeFiles/pacman.dir/classes/Sprite.cpp.o" \
-"CMakeFiles/pacman.dir/classes/Player.cpp.o"
+"CMakeFiles/pacman.dir/classes/Player.cpp.o" \
+"CMakeFiles/pacman.dir/classes/Game.cpp.o" \
+"CMakeFiles/pacman.dir/classes/DataTypes.cpp.o"
 
 # External object files for target pacman
 pacman_EXTERNAL_OBJECTS =
@@ -155,12 +185,14 @@ pacman: CMakeFiles/pacman.dir/classes/Renderer.cpp.o
 pacman: CMakeFiles/pacman.dir/classes/Map.cpp.o
 pacman: CMakeFiles/pacman.dir/classes/Sprite.cpp.o
 pacman: CMakeFiles/pacman.dir/classes/Player.cpp.o
+pacman: CMakeFiles/pacman.dir/classes/Game.cpp.o
+pacman: CMakeFiles/pacman.dir/classes/DataTypes.cpp.o
 pacman: CMakeFiles/pacman.dir/build.make
 pacman: vendor/SDL_image/libSDL3_image.0.2.1.dylib
 pacman: vendor/SDL/libSDL3.0.dylib
 pacman: /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/src/dynapi/SDL_dynapi.sym
 pacman: CMakeFiles/pacman.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable pacman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable pacman"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pacman.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

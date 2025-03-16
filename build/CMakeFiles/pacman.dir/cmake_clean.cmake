@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/pacman.dir/classes/DataTypes.cpp.o"
+  "CMakeFiles/pacman.dir/classes/DataTypes.cpp.o.d"
+  "CMakeFiles/pacman.dir/classes/Game.cpp.o"
+  "CMakeFiles/pacman.dir/classes/Game.cpp.o.d"
   "CMakeFiles/pacman.dir/classes/Map.cpp.o"
   "CMakeFiles/pacman.dir/classes/Map.cpp.o.d"
   "CMakeFiles/pacman.dir/classes/Player.cpp.o"

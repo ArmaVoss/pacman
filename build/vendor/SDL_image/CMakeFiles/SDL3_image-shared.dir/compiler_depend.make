@@ -3005,9 +3005,18 @@ vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_webp.c.o: /Users/arman
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_copy.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_header_macro.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_null.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_offsetof.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_ptrdiff_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_size_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdbool.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_assert.h \
@@ -3068,7 +3077,13 @@ vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_webp.c.o: /Users/arman
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_tray.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_version.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_video.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/include/SDL3_image/SDL_image.h
+  /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/include/SDL3_image/SDL_image.h \
+  /Users/armanvossoughi/anaconda3/include/webp/types.h \
+  /Users/armanvossoughi/anaconda3/include/webp/decode.h \
+  /Users/armanvossoughi/anaconda3/include/webp/mux_types.h \
+  /Users/armanvossoughi/anaconda3/include/webp/types.h \
+  /Users/armanvossoughi/anaconda3/include/webp/decode.h \
+  /Users/armanvossoughi/anaconda3/include/webp/demux.h
 
 vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xcf.c.o: /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/src/IMG_xcf.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/Availability.h \
@@ -3506,6 +3521,12 @@ vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xv.c.o: /Users/armanvo
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/include/SDL3_image/SDL_image.h
 
 
+/Users/armanvossoughi/anaconda3/include/webp/mux_types.h:
+
+/Users/armanvossoughi/anaconda3/include/webp/decode.h:
+
+/Users/armanvossoughi/anaconda3/include/webp/types.h:
+
 /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/src/IMG_tif.c:
 
 /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/src/nanosvgrast.h:
@@ -3521,6 +3542,8 @@ vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xv.c.o: /Users/armanvo
 /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/src/miniz.h:
 
 /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/src/IMG_pcx.c:
+
+/Users/armanvossoughi/anaconda3/include/webp/demux.h:
 
 /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/src/IMG_lbm.c:
 

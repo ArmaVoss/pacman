@@ -729,5 +729,15 @@ CMakeFiles/pacman.dir/main.cpp.o: \
   /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL_image/include/SDL3_image/SDL_image.h \
   /Users/armanvossoughi/Developer/pacman_cpp/classes/DataTypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/unordered_map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/is_permutation.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__hash_table \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/erase_if_container.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__node_handle \
   /Users/armanvossoughi/Developer/pacman_cpp/classes/Player.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Sprite.h
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/Sprite.h \
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/Game.h

@@ -167,7 +167,7 @@ vendor/SDL/CMakeFiles/SDL3-shared.dir/all: vendor/SDL/CMakeFiles/SDL_uclibc.dir/
 
 # Build rule for subdir invocation for target.
 vendor/SDL/CMakeFiles/SDL3-shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles 85
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles 86
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/SDL/CMakeFiles/SDL3-shared.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles 0
 .PHONY : vendor/SDL/CMakeFiles/SDL3-shared.dir/rule
@@ -188,7 +188,7 @@ vendor/SDL/CMakeFiles/SDL3-shared.dir/clean:
 vendor/SDL/CMakeFiles/SDL3_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f vendor/SDL/CMakeFiles/SDL3_test.dir/build.make vendor/SDL/CMakeFiles/SDL3_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f vendor/SDL/CMakeFiles/SDL3_test.dir/build.make vendor/SDL/CMakeFiles/SDL3_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=85,86,87,88 "Built target SDL3_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=84,85,86,87 "Built target SDL3_test"
 .PHONY : vendor/SDL/CMakeFiles/SDL3_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -214,12 +214,12 @@ vendor/SDL/CMakeFiles/SDL3_test.dir/clean:
 vendor/SDL/CMakeFiles/SDL_uclibc.dir/all:
 	$(MAKE) $(MAKESILENT) -f vendor/SDL/CMakeFiles/SDL_uclibc.dir/build.make vendor/SDL/CMakeFiles/SDL_uclibc.dir/depend
 	$(MAKE) $(MAKESILENT) -f vendor/SDL/CMakeFiles/SDL_uclibc.dir/build.make vendor/SDL/CMakeFiles/SDL_uclibc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=89,90,91,92,93,94,95,96,97 "Built target SDL_uclibc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=88,89,90,91,92,93,94,95,96,97 "Built target SDL_uclibc"
 .PHONY : vendor/SDL/CMakeFiles/SDL_uclibc.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/SDL/CMakeFiles/SDL_uclibc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/SDL/CMakeFiles/SDL_uclibc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles 0
 .PHONY : vendor/SDL/CMakeFiles/SDL_uclibc.dir/rule
@@ -240,7 +240,7 @@ vendor/SDL/CMakeFiles/SDL_uclibc.dir/clean:
 vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/all: vendor/SDL/CMakeFiles/SDL3-shared.dir/all
 	$(MAKE) $(MAKESILENT) -f vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/build.make vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/depend
 	$(MAKE) $(MAKESILENT) -f vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/build.make vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=77,78,79,80,81,82,83,84 "Built target SDL3_image-shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/armanvossoughi/Developer/pacman_cpp/build/CMakeFiles --progress-num=77,78,79,80,81,82,83 "Built target SDL3_image-shared"
 .PHONY : vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/all
 
 # Build rule for subdir invocation for target.

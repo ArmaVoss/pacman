@@ -33,7 +33,7 @@ SDL_Surface* Player::getSurface() {
 }
 
 void Player::updatePosition(double deltaTime, Map &map) {
-    float moveSpeed = 3.5 * 16 * deltaTime; 
+    float moveSpeed = 4 * 16 * deltaTime; 
 
     float newX = position.x;
     float newY = position.y;

@@ -5,11 +5,13 @@
 #include "Player.h"
 #include "Sprite.h"
 #include "DataTypes.h"
+#include "Game.h"
+
 namespace Renderer{
     void DrawPlayer(SDL_Renderer *renderer, Player &player);
     void DrawMap(SDL_Renderer *renderer, Map &map, Sprite (&sprites)[31][28]);
     void DrawSprite(SDL_Renderer *renderer, Sprite& sprite, MapPosition pos);
-
+    void DrawScore(SDL_Renderer *renderer, Game& state);
     void freeMapSurface(Map& map);
 
     void freePlayerSurface(Player& player);

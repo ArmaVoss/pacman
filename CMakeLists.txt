@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_REQUIRED ON)
 
 add_subdirectory(vendor)
-add_executable(pacman main.cpp classes/Renderer.cpp classes/Map.cpp classes/Sprite.cpp classes/Player.cpp)
+add_executable(pacman main.cpp classes/Renderer.cpp classes/Map.cpp classes/Sprite.cpp classes/Player.cpp classes/Game.cpp classes/DataTypes.cpp)
 target_link_libraries(pacman PRIVATE vendor)

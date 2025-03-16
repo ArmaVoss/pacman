@@ -1,6 +1,6 @@
-CMakeFiles/pacman.dir/classes/Map.cpp.o: \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.cpp \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Map.h \
+CMakeFiles/pacman.dir/classes/Game.cpp.o: \
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/Game.cpp \
+  /Users/armanvossoughi/Developer/pacman_cpp/classes/Game.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_stdinc.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_platform_defines.h \
@@ -736,5 +736,4 @@ CMakeFiles/pacman.dir/classes/Map.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/print \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/unistd.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/classes/Player.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/unistd.h

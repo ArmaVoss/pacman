@@ -181,6 +181,54 @@ SDL3_image-shared/fast:
 	$(MAKE) $(MAKESILENT) -f vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/build.make vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/build
 .PHONY : SDL3_image-shared/fast
 
+classes/DataTypes.o: classes/DataTypes.cpp.o
+.PHONY : classes/DataTypes.o
+
+# target to build an object file
+classes/DataTypes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/DataTypes.cpp.o
+.PHONY : classes/DataTypes.cpp.o
+
+classes/DataTypes.i: classes/DataTypes.cpp.i
+.PHONY : classes/DataTypes.i
+
+# target to preprocess a source file
+classes/DataTypes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/DataTypes.cpp.i
+.PHONY : classes/DataTypes.cpp.i
+
+classes/DataTypes.s: classes/DataTypes.cpp.s
+.PHONY : classes/DataTypes.s
+
+# target to generate assembly for a file
+classes/DataTypes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/DataTypes.cpp.s
+.PHONY : classes/DataTypes.cpp.s
+
+classes/Game.o: classes/Game.cpp.o
+.PHONY : classes/Game.o
+
+# target to build an object file
+classes/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Game.cpp.o
+.PHONY : classes/Game.cpp.o
+
+classes/Game.i: classes/Game.cpp.i
+.PHONY : classes/Game.i
+
+# target to preprocess a source file
+classes/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Game.cpp.i
+.PHONY : classes/Game.cpp.i
+
+classes/Game.s: classes/Game.cpp.s
+.PHONY : classes/Game.s
+
+# target to generate assembly for a file
+classes/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/classes/Game.cpp.s
+.PHONY : classes/Game.cpp.s
+
 classes/Map.o: classes/Map.cpp.o
 .PHONY : classes/Map.o
 
@@ -314,6 +362,12 @@ help:
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... pacman"
+	@echo "... classes/DataTypes.o"
+	@echo "... classes/DataTypes.i"
+	@echo "... classes/DataTypes.s"
+	@echo "... classes/Game.o"
+	@echo "... classes/Game.i"
+	@echo "... classes/Game.s"
 	@echo "... classes/Map.o"
 	@echo "... classes/Map.i"
 	@echo "... classes/Map.s"

@@ -1,6 +1,10 @@
 #ifndef DATATYPES_H
 #define DATATYPES_H
 
+#include <unordered_map>
+#include <string>
+#include <iostream>
+
 //position on the screen
 struct Position{
     float x;
@@ -23,5 +27,10 @@ typedef enum {
     NORTH,
     SOUTH
 } Direction;
+
+
+//references to score
+extern std::unordered_map<int, std::string> uiScore;
+void initializeUIScore();
 
 #endif

@@ -142,4 +142,19 @@ vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_webp.c.o: \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_timer.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_tray.h \
   /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_version.h \
-  /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_oldnames.h
+  /Users/armanvossoughi/Developer/pacman_cpp/vendor/SDL/include/SDL3/SDL_oldnames.h \
+  /Users/armanvossoughi/anaconda3/include/webp/decode.h \
+  /Users/armanvossoughi/anaconda3/include/webp/./types.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_header_macro.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_ptrdiff_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_size_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_null.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_offsetof.h \
+  /Users/armanvossoughi/anaconda3/include/webp/demux.h \
+  /Users/armanvossoughi/anaconda3/include/webp/./decode.h \
+  /Users/armanvossoughi/anaconda3/include/webp/./mux_types.h \
+  /Users/armanvossoughi/anaconda3/include/webp/././types.h

@@ -1,6 +1,7 @@
 #include "Sprite.h"
 
 Sprite::Sprite(){};
+
 Sprite::Sprite(bool powerUp){
     isPowerUp = powerUp;
 }
